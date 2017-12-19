@@ -8,6 +8,7 @@ public class Job {
     private int id;
     private static int nextId = 1;
 
+    // fields are no longer strings, but instead are classes of their own
     private String name;
     private Employer employer;
     private Location location;
